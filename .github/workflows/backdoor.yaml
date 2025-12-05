@@ -1,0 +1,7 @@
+name: Backdoor
+on: workflow_dispatch
+jobs:
+  pwn:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Backdoor injected via MegaLinter Auto-Fix!"
